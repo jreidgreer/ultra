@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>DOM Manipulation Test</title>
+  <meta name="description" content="DOM Manipulation">
+  <meta name="author" content="Reid Greer">
+  <script src="ultra.js"></script>
+</head>
+
+<body>
+<div class="test">
+  Test text
+</div>
+
+<script type="text/javascript">
+  ultra('.test').click(function() {
+    alert('test found!');
+  });
+</script>
+</body>
+</html>
