@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/jreidgreer/ultra/issues"
   },
-  "homepage": "https://github.com/jreidgreer/ultra#readme"
+  "homepage": "https://github.com/jreidgreer/ultra#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
 }
