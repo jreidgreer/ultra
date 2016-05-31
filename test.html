@@ -3,10 +3,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
   <title>DOM Manipulation Test</title>
   <meta name="description" content="DOM Manipulation">
   <meta name="author" content="Reid Greer">
+  <link rel="stylesheet" href="./node_modules/mocha/mocha.css" />
   <script src="ultra.js"></script>
 </head>
 
@@ -15,10 +15,17 @@
   Test text
 </div>
 
-<script type="text/javascript">
-  ultra('.test').click(function() {
-    alert('test found!');
-  });
+<div id="mocha"></div>
+<script src="./node_modules/mocha/mocha.js"></script>
+<script src="./node_modules/chai/chai.js"></script>
+<script>
+  mocha.ui('bdd')
+  expect = chai.expect
+</script>
+<script src="ultra.js"></script>
+<script src="test/test.js"></script>
+<script>
+  mocha.run()
 </script>
 </body>
 </html>
