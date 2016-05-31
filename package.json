@@ -1,0 +1,25 @@
+{
+  "name": "ultra",
+  "version": "0.1.0",
+  "description": "A basic DOM manipulation library.",
+  "main": "ultra.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jreidgreer/ultra.git"
+  },
+  "keywords": [
+    "DOM",
+    "HTML",
+    "JS",
+    "JavaScript"
+  ],
+  "author": "Reid Greer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jreidgreer/ultra/issues"
+  },
+  "homepage": "https://github.com/jreidgreer/ultra#readme"
+}
